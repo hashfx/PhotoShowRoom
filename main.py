@@ -19,7 +19,7 @@ class Main(tk.Tk):
         self.filter_frame = None
         self.adjust_frame = None
 
-        self.title("PhotoShowRoom hash.prog")
+        self.title("PhotoShowRoom @hash.prog")
 
         self.editbar = EditBar(master=self)
         separator1 = ttk.Separator(master=self, orient=tk.HORIZONTAL)

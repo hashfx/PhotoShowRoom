@@ -1,6 +1,6 @@
 from tkinter import Frame, Button, LEFT
 from tkinter import filedialog
-from filterFrame import FilterFrame
+from filterWin import FilterFrame
 from adjustFrame import AdjustFrame
 import cv2
 

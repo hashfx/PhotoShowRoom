@@ -30,14 +30,14 @@ class FilterFrame(Toplevel):
         self.apply_button.bind("<ButtonRelease>", self.apply_button_released)
         self.cancel_button.bind("<ButtonRelease>", self.cancel_button_released)
 
-        self.negative_button.pack(pady=10)
-        self.black_white_button.pack(pady=10)
-        self.sepia_button.pack(pady=10)
-        self.emboss_button.pack(pady=10)
-        self.gaussian_blur_button.pack(pady=10)
-        self.median_blur_button.pack(pady=10)
-        self.cancel_button.pack(side=RIGHT, pady=10)
-        self.apply_button.pack(side=RIGHT, pady=10)
+        self.negative_button.pack(pady=10, padx=25)
+        self.black_white_button.pack(pady=10, padx=25)
+        self.sepia_button.pack(pady=10, padx=25)
+        self.emboss_button.pack(pady=10, padx=25)
+        self.gaussian_blur_button.pack(pady=10, padx=25)
+        self.median_blur_button.pack(pady=10, padx=25)
+        self.cancel_button.pack(side=RIGHT, pady=10, padx=25)
+        self.apply_button.pack(side=RIGHT, pady=10, padx=25)
 
     def negative_button_released(self, event):
         self.negative()

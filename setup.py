@@ -1,6 +1,6 @@
 from setuptools import setup
 
 setup(
-    app=["init.py"],
+    app=["ImageEditor.py"],
     setup_requires=["py2app"]
 )
